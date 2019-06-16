@@ -61,10 +61,14 @@ fn main() {
                             t.reset().unwrap();
                         }
                         Difference::Add(ref x) => {
+                            t.reset().unwrap();
+                            write!(t, "{} => ", other.ts).unwrap();
                             t.fg(term::color::GREEN).unwrap();
                             writeln!(t, "+{}", x).unwrap();
                         }
                         Difference::Rem(ref x) => {
+                            t.reset().unwrap();
+                            write!(t, "{} => ", entry1.ts).unwrap();
                             t.fg(term::color::RED).unwrap();
                             writeln!(t, "-{}", x).unwrap();
                         }
