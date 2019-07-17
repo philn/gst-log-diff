@@ -6,6 +6,8 @@ edition = "2018"
 repository = "https://github.com/philn/gst-log-diff"
 license = "MIT"
 readme = "README.rst"
+keywords = ["multimedia", "gstreamer", "tools"]
+description = "Command-line utility to compare GStreamer log files"
 
 [dependencies]
 gst-log-parser = "0.1"
