@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.rst"
 
 [dependencies]
-gst-log-parser = { git = "https://github.com/gdesmott/gst-log-parser.git" }
+gst-log-parser = "0.1"
 structopt = "0.2.16"
 structopt-derive = "0.2.16"
 difference = "2.0.0"
