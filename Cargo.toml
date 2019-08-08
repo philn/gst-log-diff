@@ -1,6 +1,6 @@
 [package]
 name = "gst-log-diff"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Philippe Normand <philn@igalia.com>"]
 edition = "2018"
 repository = "https://github.com/philn/gst-log-diff"
@@ -10,7 +10,7 @@ keywords = ["multimedia", "gstreamer", "tools"]
 description = "Command-line utility to compare GStreamer log files"
 
 [dependencies]
-gst-log-parser = "0.1"
+gst-log-parser = "0.1.2"
 structopt = "0.2.16"
 structopt-derive = "0.2.16"
 difference = "2.0.0"
