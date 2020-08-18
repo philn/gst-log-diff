@@ -10,9 +10,9 @@ keywords = ["multimedia", "gstreamer", "tools"]
 description = "Command-line utility to compare GStreamer log files"
 
 [dependencies]
-gst-log-parser = "0.1.2"
-structopt = "0.2.16"
-structopt-derive = "0.2.16"
-difference = "2.0.0"
-term = "0.5.2"
-regex = "1.1.7"
+gst-log-parser = "0.1"
+structopt = "0.3"
+structopt-derive = "0.3"
+difference = "2"
+term = "0.6"
+regex = "1"
